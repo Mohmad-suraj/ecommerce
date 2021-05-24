@@ -1,0 +1,177 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">EasyBuy <img height="25px" width="25px" src="../../../assets/images/shopping-cart.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">about</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link active" >contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" >cart</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+  
+ 
+  <div class="container-fluid">
+    <div class="row" >
+
+      <div class="col-md-3" id="box1" >
+        <ul>
+      <li> <button (click)="product()">product</button></li>
+       <br>
+      <li> <button>About us</button></li>
+       <br>
+      <li> <button>contact us</button></li>
+       <br>
+      <li> <button>Advertise</button></li>
+      <br>
+      <li> <button (click)='logout()'>Log Out</button></li>
+      </ul>
+      </div>
+     
+      <div class="col-md-9" id="box2">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../../../assets/images/sneakers.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../../../assets/images/cloth.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../../../assets/images/iphone-x-54.jpg" class="d-block w-100" alt="...">
+            </div>
+           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          <br>
+          <br>
+           <h1> Electronics</h1>
+            <div class="row">
+              
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="../../../assets/images/w1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">Washing Machines</h3> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="../../../assets/images/lap.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <br>
+                    <h3 class="card-title">Laptops</h3> 
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="../../../assets/images/mobiles.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <br>
+                    <h3 class="card-title">Mobiles</h3> 
+                  </div>
+                </div>
+              </div> 
+          </div>
+          <br>
+
+          <h1>Clothing</h1>
+          <div class="row">
+            
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../../../assets/images/menwear.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Men wear</h3> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../../../assets/images/womenear.jpg" height="160px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Women Wear</h3> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img src="../../../assets/images/kidswear.jpeg" height="160px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  
+                  <h3 class="card-title">Kids Wear</h3> 
+                </div>
+              </div>
+            </div> 
+        </div>
+
+        <br>
+        <h1>Shoes</h1>
+        <div class="row">
+        
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../../../assets/images/running.png" height="160px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Running Shoes</h3> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../../../assets/images/formal.jpg" height="160px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Formal Shoes</h3> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="../../../assets/images/casual.jpg" height="160px" class="card-img-top" alt="...">
+              <div class="card-body">
+                
+                <h3 class="card-title">Casual Shoes</h3> 
+              </div>
+            </div>
+          </div> 
+      </div>
+       
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+
+

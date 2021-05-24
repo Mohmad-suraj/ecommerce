@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+#box1{
+    background-color: blue;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:30px;
+}
+#box2{
+    background-color: white;
+    padding:40px;
+}
+#mainbox{
+    margin-top: 40px;
+    border:2px solid black;
+    padding-left:12px;padding-right:12px;
+}
+#f1,#f2{
+    margin-left:200px;
+  
+}
+#f1 label{
+    font-size: 20px;
+}
+#f1 input{
+    width:300px;
+}
+#f2 input{
+    width:300px;
+}
+

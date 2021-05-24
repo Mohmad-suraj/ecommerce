@@ -1,0 +1,15 @@
+.row ul{
+    list-style: none;
+}
+.row button{
+    border: none;
+    background-color: none;
+    width:150px;
+    border-radius: 20px;
+}
+#box1{
+    background-color: blue;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:30px;
+}

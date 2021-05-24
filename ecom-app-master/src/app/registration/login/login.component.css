@@ -1,0 +1,15 @@
+#box1{
+    background-color: blue;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:30px;
+}
+#box2{
+    background-color: white;
+    padding:40px;
+}
+#mainbox{
+    margin-top: 40px;
+    border:2px solid black;
+    padding-left:12px;padding-right:12px;
+}
